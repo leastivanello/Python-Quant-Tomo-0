@@ -105,11 +105,14 @@ viernes = round(jueves * (1 + variacion), 2)
 # Mostrar precios
 print(f"precios: {ggal4}, lunes: {lunes}, martes: {martes}, miercoles: {miercoles}, jueves: {jueves}, viernes: {viernes}")
 
+
+
+print("Agregado para jugar con IA")
 # Preparar datos para graficar
 dias = ["Lunes", "Martes", "Miércoles", "Jueves", "Viernes"]
 valores = [lunes, martes, miercoles, jueves, viernes]
 
-# Graficar
+# Graficar (esto fue agregado para verificar si funcionaba codigo con IA)
 plt.figure(figsize=(8, 5))
 plt.plot(dias, valores, marker='o', linestyle='-', color='blue')
 plt.title("Evolución de precio durante la semana")
